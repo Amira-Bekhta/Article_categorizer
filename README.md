@@ -1,4 +1,4 @@
-# Find the app in the following link: 
+# Find the app in the following [link](http://141.148.245.139:5050/)
 
 # 📜 Article categorizer app
 
