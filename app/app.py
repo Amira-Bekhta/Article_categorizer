@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import joblib
 import os
 
-model = joblib.load("model.pkl")
+model = joblib.load(os.path.join(os.path.dirname(__file__), "..", "model/model.pkl"))
 
 app = Flask(__name__)
 
